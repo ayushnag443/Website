@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <title> My Website for Github</title>
 <head> <h1>Hello Ayush this side</h1>
-<style>
+    <style>
     div {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-</style></head>
+</style>
+        </style>  
+    </head>
 <body>
-    <div style="width: 50%;">
-    <img src="94302955_706826880126816_4591864636982165504_n.jpg" alt="My images" width="460" height="400"></div>
+   <div style="width: 50%;">
+    <img src="94302955_706826880126816_4591864636982165504_n.jpg" alt="My images" width="460" height="400" margin=><br> Image</div>
     <p style="background-color: rgb(241, 241, 241);"><h2>Hello Everybody</h2><br></h1>Myself Ayush. 4th year Mechanical Engineering student at IIEST Shibpur. I have completed my 12th board from Ramakrishna Mission Vidyabhavan Midnapur.<br> If you want to contact me here is my 
 social media handles.<br>
     <a href="https://www.facebook.com/david.nag.395" target="_blank">
@@ -22,12 +24,10 @@ social media handles.<br>
         <img src="temp-folder.jpg" alt="resume" width="64" height="64"></a>
  </p>
 
-    <p>Many field types...</p>
+    <p>You are welcome</p>
     <form method="post">
    <p><label for="inp01">Full Name:</label>
    <input type="text" name="account" id="inp01" size="40" ></p>
-   <p><label for="inp02">Password:</label>
-   <input type="password" name="pw" id="inp02" size="40" ></p>
    <p><label for="inp03">Nick Name:</label>
    <input type="text" name="nick" id="inp03" size="40" ></p>
    <p>Mother Tounge</p>
@@ -35,13 +35,13 @@ social media handles.<br>
    <input type="radio" name="mother tounge" value="English">English<br>
    <input type="radio" name="mother tounge" value="Hindi">Hindi<br>
    <p>
-    <input type="submit" 
-    onclick="greeting()"; return False;
-     value="Submit">
-     <script>
+    <button onclick="myFunction()">Submit</button>
+   <p id="demo"></p>
+<script>
         function greeting(){
-            var a=document.getElementById('inp01').value;
-            window.open("Hello "+a)
+            
+            document.getElementById('demo').innerHTML="thanks for visiting";
+            
         }
     </script>
     
